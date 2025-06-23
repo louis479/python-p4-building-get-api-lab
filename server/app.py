@@ -16,7 +16,7 @@ db.init_app(app)
 
 @app.route('/')
 def index():
-    
+    return '<h1>Bakery GET API</h1>'
 
 @app.route('/bakeries')
 def bakeries():
